@@ -1,0 +1,21 @@
+{
+    "name": "Switcher",
+    "version": "0.1",
+    "manifest_version": 2,
+    "description": "Used to help with testing and development for jmg and jso sites",
+    "author": "Kyle Uhan",
+    "icons": {
+        "128": "switch.png"
+    },
+    "browser_action": {
+        "default_title": "Switcher",
+        "default_icon": "switch.png"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "options_page": "options.html",
+    "offline_enabled": true,
+    "permissions": ["tabs", "http://*.caller.com/*", "https://*.caller.com/*", "http://*.commercialappeal.com/*", "https://*.commercialappeal.com/*", "http://*.courierpress.com/*", "https://*.courierpress.com/*", "http://*.thegleaner.com/*", "https://*.thegleaner.com/*", "http://*.naplesnews.com/*", "https://*.naplesnews.com/*", "http://*.tcpalm.com/*", "https://*.tcpalm.com/*", "http://*.knoxnews.com/*", "https://*.knoxnews.com/*", "http://*.vcstar.com/*", "https://*.vcstar.com/*", "http://*.timesrecordnews.com/*", "https://*.timesrecordnews.com/*", "http://*.reporternews.com/*", "https://*.reporternews.com/*", "http://*.independentmail.com/*", "https://*.independentmail.com/*", "http://*.kitsapsun.com/*", "https://*.kitsapsun.com/*", "http://*.kpbj.com/*", "https://*.kpbj.com/*", "http://*.gosanangelo.com/*", "https://*.gosanangelo.com/*", "http://*.redding.com/*", "https://*.redding.com/*", "http://*.jsonline.com/*", "https://*.jsonline.com/*"]
+}
